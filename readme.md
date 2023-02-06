@@ -9,3 +9,4 @@
 `train.py` train and evaluate SimClone and LTC
 
 # 2.visualization
+the visualization phase can be seen in `visualization.py`, using jupyter notebook might provide a better visualization result
