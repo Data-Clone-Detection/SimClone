@@ -51,7 +51,7 @@ predictor_ltc = TabularPredictor(label='target', verbosity=0).fit(
 print(predictor_ltc.evaluate(test[['col_header', 'row_header', 'cell_type', 'target']]))
 
 print('SimClone')
-predictor = TabularPredictor(label='target',verbosity=0).fit(train_data=train[
+predictor = TabularPredictor(label='target',verbosity=0,path='ML_predictor').fit(train_data=train[
     ['jaccard_str_row', 'jaccard_str_col', 'jaccard_num_row', 'jaccard_num_col', 'mean_col', 'dev_col', 'mean_row',
      'dev_row', 'simhash_col', 'simhash_row', 'lev_col', 'lev_row', 'textrank_col', 'textrank_row', 'target']])
 
