@@ -1,4 +1,4 @@
-#Repo For SIMCLONE
+# Repo For SIMCLONE
 
 # 1.build classifier
 ## 1.1 clone injection
@@ -10,3 +10,6 @@
 
 # 2.visualization
 the visualization phase can be seen in `visualization.py`, using jupyter notebook might provide a better visualization result
+
+# 3. License
+Both the code and data are shared under the license of 'CC-BY-NC-SA'
